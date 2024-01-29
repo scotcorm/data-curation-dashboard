@@ -14,6 +14,11 @@ const SubHeader = ({ current, detail }) => {
               <Link to='/directory'>Directory</Link>
             </BreadcrumbItem>
           )}
+          {detail && (
+            <BreadcrumbItem>
+              <Link to='/charts'>Charts</Link>
+            </BreadcrumbItem>
+          )}
           <BreadcrumbItem active>{current}</BreadcrumbItem>
         </Breadcrumb>
         <h2>{current}</h2>
