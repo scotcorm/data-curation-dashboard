@@ -15,7 +15,7 @@ export const CAMPSITES = [
     name: 'Scott Cormier',
     image: employeeMImg,
     elevation: 1233,
-    featured: false,
+    featured: true,
     description:
       'Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.',
   },
