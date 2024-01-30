@@ -52,15 +52,16 @@ const Footer = () => {
           </Col>
           <Col sm='4' className='text-center'>
             <a role='button' className='btn btn-link' href='tel:+12065551234'>
-              <i className='fa fa-phone' /> 1-206-555-1234
+              <i className='fa fa-gears' /> gitHub
             </a>
             <br />
             <a
               role='button'
               className='btn btn-link'
-              href='mailto:notreal@notreal.co'
+              href='https://github.com/scotcorm'
             >
-              <i className='fa fa-envelope-o' /> campsites@nucamp.co
+              <i className='fa fa-folder' />{' '}
+              https://www.linkedin.com/in/scott-cormier-mlis/
             </a>
           </Col>
         </Row>
