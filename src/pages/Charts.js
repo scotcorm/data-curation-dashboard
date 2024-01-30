@@ -10,6 +10,7 @@ import SubHeader from '../components/SubHeader';
 //import Footer from '../components/Footer';
 //import Header from '../components/Header';
 import mainData from '../data/mainData.json';
+import JsonDataDisplay from '../components/JsonDataDisplay';
 
 import qaData from '../data/qaData.json';
 
@@ -141,6 +142,7 @@ const Charts = () => {
           </div>
         </div>
       </Row>
+      <JsonDataDisplay />
     </Container>
   );
 };

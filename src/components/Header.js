@@ -17,7 +17,7 @@ const Header = () => {
     <Navbar dark color='primary' sticky='top' expand='md'>
       <NavbarBrand className='ms-5' href='/'>
         <img src={NucampLogo} alt='nucamp logo' className='float-start' />
-        <h1 className='mt-1'>NuCamp</h1>
+        <h1 className='mt-1'>Production Dashboard</h1>
       </NavbarBrand>
       <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
       <Collapse isOpen={menuOpen} navbar>
@@ -38,13 +38,13 @@ const Header = () => {
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink className='nav-link' to='/contact'>
-              <i className='fa fa-address-card fa-lg' /> Contact
+            <NavLink className='nav-link' to='/charts'>
+              <i className='fa fa-bar-chart fa-lg' /> Charts
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink className='nav-link' to='/charts'>
-              <i className='fa fa-address-card fa-lg' /> Charts
+            <NavLink className='nav-link' to='/contact'>
+              <i className='fa fa-address-card fa-lg' /> Contact
             </NavLink>
           </NavItem>
         </Nav>
